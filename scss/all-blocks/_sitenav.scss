@@ -1,3 +1,36 @@
 .sitenav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 20px;
+  align-items: center;
+
+
+  &-item {
+
+
+    &__img {
+      cursor: pointer;
+    }
+
+    &__links {
+      text-decoration: none;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1B1C20;
+      padding-left: 30px;
+      margin: 0;
+      transition: 0.7s;
+    }
+
+    &__links:hover {
+      color: #8f7a7a;
+    }
+
+
+  }
 
 }
