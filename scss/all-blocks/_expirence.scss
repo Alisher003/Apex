@@ -1,0 +1,50 @@
+.expirence-top {
+  padding: 80px 0px 65px 0px;
+
+  &__heading {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #1B1C20;
+    
+  }
+
+  &-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    &-item {
+      padding: 30px;
+      display: flex;
+      gap: 24px;
+
+      &__img {
+        margin-top: -90px;
+      }
+
+      &-box {
+
+        &__heading {
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 21px;
+          line-height: 33px;
+          color: #1B1C20;
+          padding: 0;
+          margin: 0;
+        }
+
+        &__desc {
+          padding-top: 12px;
+        }
+      }
+    }
+  }
+}
