@@ -1,20 +1,15 @@
 .costumers {
-  background: #F8F8FA;
+  padding: 105px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__box {
 
 
-  &-top {
-    padding: 105px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    &-box {
-
-  
-      &__desc {
-        padding: 26px 0;
-        font-weight: 500;
-      }
+    &__desc {
+      padding: 26px 0;
+      font-weight: 500;
     }
   }
 
